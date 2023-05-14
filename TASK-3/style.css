@@ -1,0 +1,129 @@
+*{
+    
+    font-size: 25px;
+    box-sizing: border-box;
+    margin: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+@font-face {
+    font-family: "zian";
+    src: url(Zian-7vO4.ttf);
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+.extra{
+    
+    flex-basis: 30%;
+	text-align: left;
+    max-width: 700px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(136, 96, 96, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 6px;
+    border:6px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.37);
+    min-height: 850px; 
+}  
+
+body{
+    display: flex;
+    flex-basis: 40%
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 3px;
+    
+}
+.netra{
+    flex-basis: 30%;
+	text-align: right;
+    max-width: 700px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(136, 96, 96, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 6px;
+    border:6px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.37);
+    min-height: 850px;
+}
+
+.container{
+    max-width: 700px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(136, 96, 96, 0));
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 6px;
+    border:6px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.37);
+
+
+}
+.container ::placeholder{
+    text-align: center;
+    text-transform: capitalize;
+
+    
+}
+.container button{
+    padding: 6px;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(50px);
+    border-radius: 150px;
+    text-align: center;
+    size: 40px;
+    width: 250px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border:3px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.37);
+    
+
+}
+input{
+    padding: 6px;
+    background-color: mistyrose;
+    border-radius: 20px;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    
+}
+.title{
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+
+}
+.boxes{
+    justify-content: center;
+    text-align: center;
+}
+.boxes button{
+    padding: 6px;
+    border-radius: 50px;
+    width:auto;
+    border:3px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.37);
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+}
